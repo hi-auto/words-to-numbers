@@ -29,7 +29,6 @@
     "lint:src": "eslint .",
     "lint:types": "tsc",
     "prepublishOnly": "npm run build && npm run lint",
-    "postpublish": "git push --follow-tags",
     "test": "vitest ./src"
   },
   "dependencies": {
