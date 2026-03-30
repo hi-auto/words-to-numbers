@@ -20,7 +20,7 @@ The codebase was modernized and published under 2.0 with the following changes:
 ## Usage
 
 ```
-npm install @insomnia-dev/words-to-numbers
+npm install @hi-auto/words-to-numbers
 ```
 
 If the whole string passed is a number then it will return a `Number` type
@@ -32,7 +32,7 @@ TODO: Add functionality for parsing mixed numbers and words. PRs welcome.
 ## Basic Examples
 
 ```ts
-import wordsToNumbers from "@insomnia-dev/words-to-numbers";
+import wordsToNumbers from "@hi-auto/words-to-numbers";
 
 wordsToNumbers("one hundred"); //100
 wordsToNumbers("one hundred and five"); //105
@@ -67,7 +67,7 @@ to find the best match for the number words. Don't rely on this being completely
 accurate...
 
 ```ts
-import wordsToNumbers from "@insomnia-dev/words-to-numbers";
+import wordsToNumbers from "@hi-auto/words-to-numbers";
 
 wordsToNumbers("won huntred", { fuzzy: true }); //100
 wordsToNumbers("too thousant and fiev", { fuzzy: true }); //2005
@@ -77,7 +77,7 @@ wordsToNumbers("tree millyon sefen hunderd and twinty sex", { fuzzy: true }); //
 ## Decimal Points
 
 ```ts
-import wordsToNumbers from "@insomnia-dev/words-to-numbers";
+import wordsToNumbers from "@hi-auto/words-to-numbers";
 
 wordsToNumbers("ten point five"); //10.5
 wordsToNumbers("three point one four one five nine two six"); //3.1415926
@@ -86,7 +86,7 @@ wordsToNumbers("three point one four one five nine two six"); //3.1415926
 ## Ordinal Numbers
 
 ```ts
-import wordsToNumbers from "@insomnia-dev/words-to-numbers";
+import wordsToNumbers from "@hi-auto/words-to-numbers";
 
 wordsToNumbers("first"); //1
 wordsToNumbers("second"); //2

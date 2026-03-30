@@ -1,13 +1,7 @@
 {
-  "name": "@insomnia-dev/words-to-numbers",
-  "version": "2.2.0",
+  "name": "@hi-auto/words-to-numbers",
+  "version": "2.2.1",
   "description": "Convert textual words to numbers with optional fuzzy text matching",
-  "license": "MIT",
-  "author": "Chris Sandvik <chris.sandvik@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/insomnia-dev/words-to-numbers.git"
-  },
   "type": "module",
   "exports": {
     ".": {
@@ -57,7 +51,6 @@
     "vitest": "^2.1.4"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com"
   }
 }
